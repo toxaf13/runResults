@@ -1,0 +1,126 @@
+.card-item {
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-height: 250px;
+   background-size: cover;
+   background-position: center;
+   color: white;
+}
+
+.card-overlay {
+   background-color: rgba(0, 0, 0, 0.6);
+   padding: 20px;
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card-title {
+   font-size: 1.6em;
+   margin-top: 0;
+   margin-bottom: 10px;
+   color: white;
+}
+
+.card-owner {
+   font-size: 0.9em;
+   color: #bbb;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-bottom: 10px;
+}
+
+.card-owner-avatar {
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 1px solid #aaa;
+}
+
+.card-description {
+   font-size: 1em;
+   line-height: 1.5;
+   color: #eee;
+   margin-bottom: 15px;
+}
+
+.card-type {
+   font-size: 0.9em;
+   font-style: italic;
+   color: #ccc;
+   margin-bottom: 10px;
+}
+
+.card-results {
+   padding-top: 10px;
+}
+
+.card-results h4 {
+   font-size: 1em;
+   margin-top: 0;
+   margin-bottom: 5px;
+   color: white;
+}
+
+.card-results ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.card-results li {
+   font-size: 0.9em;
+   color: #ddd;
+   margin-bottom: 3px;
+}
+
+.card-visibility {
+   font-size: 0.8em;
+   color: #aaa;
+   text-align: right;
+   margin-top: 15px;
+}
+
+.card-actions {
+   display: flex;
+   gap: 10px;
+   margin-top: 20px;
+   justify-content: flex-end;
+}
+
+.card-actions button {
+   padding: 8px 12px;
+   border-radius: 5px;
+   font-size: 0.9em;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+}
+
+.card-actions .edit-button {
+   background-color: #ffc107;
+   color: #333;
+   border: 1px solid #ffc107;
+}
+
+.card-actions .edit-button:hover {
+   background-color: #e0a800;
+   border-color: #e0a800;
+}
+
+.card-actions .delete-button {
+   background-color: #dc3545;
+   color: white;
+   border: 1px solid #dc3545;
+}
+
+.card-actions .delete-button:hover {
+   background-color: #c82333;
+   border-color: #c82333;}

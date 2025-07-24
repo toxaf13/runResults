@@ -1,0 +1,66 @@
+.modal-overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.7);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1000;
+}
+
+.modal-content {
+   background-color: #ffffff;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   position: relative;
+   width: 90%;
+   max-width: 450px;
+}
+
+.modal-close-button {
+   position: absolute;
+   top: 15px;
+   right: 15px;
+   background: none;
+   border: none;
+   font-size: 1.8em;
+   cursor: pointer;
+   color: #888;
+   padding: 0;
+}
+
+.modal-close-button:hover {
+   color: #333;
+}
+
+.auth-switch {
+   display: flex;
+   margin-bottom: 25px;
+   border-bottom: 1px solid #eee;
+   padding-bottom: 10px;
+   justify-content: center;
+   gap: 10px;
+}
+
+.switch-button {
+   background: none;
+   border: none;
+   color: #888;
+   font-size: 1.1em;
+   padding: 8px 15px;
+   cursor: pointer;
+   transition: color 0.3s, border-bottom 0.3s;
+}
+
+.switch-button.active {
+   color: #007bff;
+   border-bottom: 2px solid #007bff;
+   font-weight: bold;
+}
+
+.switch-button:hover:not(.active) {
+   color: #007bff;}
